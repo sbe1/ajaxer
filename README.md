@@ -1,15 +1,14 @@
-Ajaxer - simple AJAX client.
-===============
-Version 1.0
----------------
-***
+# Ajaxer - simple AJAX client.
 
-##Description:
+## Version 1.0
+---
+
+## Description:
 Ajaxer is a simple client that supports multiple asynchronous AJAX requests.
 
-##Usage:
+## Usage:
 
-###Data format for single requests:
+### Data format for single requests:
 
     {
 	"url": "/url/or/uri/to/request",
@@ -27,11 +26,11 @@ Ajaxer is a simple client that supports multiple asynchronous AJAX requests.
 	}]
     }
 
-###Multiple requests:
+### Multiple requests:
 
     [...array of single requests....]
 
-###Data format for responses (single request example):
+### Data format for responses (single request example):
 
     [{
 	"url": "/url/or/uri/you/requested",
@@ -40,7 +39,7 @@ Ajaxer is a simple client that supports multiple asynchronous AJAX requests.
 	"response": "{\"response\":\"body\"}"
     }]
 
-##Methods and properties:
+## Methods and properties:
 
     ajaxer.request(args); #  args can be an array or an object
     
@@ -50,7 +49,7 @@ Ajaxer is a simple client that supports multiple asynchronous AJAX requests.
     
     ajaxer.clearResults(); # resets the results array, should be called for ever new call of ajaxer.request
 
-##"Private" methods:
+## "Private" methods:
 
     ajaxer.addData(data); # adds response objects to the ajaxer.results array.
 
