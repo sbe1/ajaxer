@@ -42,7 +42,7 @@ Ajaxer is a simple client that supports multiple asynchronous AJAX requests. Req
 
     ajaxer.request(args); #  handles AJAX requests, args can be an array or an object
     
-    ajaxer.results # array of request results
+    ajaxer.results; # array of request results
     
     ajaxer.findResult(url); # url is the url or uri you requested, returns
                             # response object matching url argument or null if not found.
@@ -53,6 +53,7 @@ Ajaxer is a simple client that supports multiple asynchronous AJAX requests. Req
 ## "Private" methods:
 
     ajaxer.addData(data); # adds response objects to the ajaxer.results array.
+                          # the data argument represents a single response object.
 
     ajaxer.client # internal client making the AJAX requests.
 
