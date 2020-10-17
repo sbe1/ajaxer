@@ -1,0 +1,11 @@
+{
+    "name": "ajaxer",
+    "version": "1.0.0",
+    "description": "A simple AJAX convenience library that supports multiple asychronous requests.",
+    "main": "src/ajaxer.js",
+    "keywords": ["util", "functional", "server", "client", "browser","ajax","http"],
+    "author": "Shawn Ewald <shawn.ewald@gmail.com>",
+    "license":"MIT",
+    "contributors": [],
+    "dependencies": {}
+}
