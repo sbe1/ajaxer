@@ -1,7 +1,6 @@
 # Ajaxer - simple AJAX client.
 
 ## Version 1.0
----
 
 ## Description:
 Ajaxer is a simple client that supports multiple asynchronous AJAX requests.
