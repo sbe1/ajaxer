@@ -1,9 +1,9 @@
-# Ajaxer - simple AJAX client.
+# Ajaxer - simple AJAX client for jQuery.
 
 ## Version 1.0
 
 ## Description:
-Ajaxer is a simple client that supports multiple asynchronous AJAX requests.
+Ajaxer is a simple client that supports multiple asynchronous AJAX requests. Requires jQuery 3x or greater.
 
 ## Usage:
 
