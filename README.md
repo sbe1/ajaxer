@@ -45,16 +45,17 @@ Ajaxer is a simple client that supports multiple asynchronous AJAX requests. Req
     ajaxer.results; # array of request results
     
     ajaxer.findResult(url); # url is the url or uri you requested, returns
-                            # response object matching url argument or null if not found.
+                            # response object first matching url argument
+                            # or null if not found.
     
     ajaxer.clearResults(); # resets the results array, should be called before
                            # every new call of ajaxer.request
     
     ajaxer.failCallback # optional user defined callback for failed requests
-                        # ajaxer.failCallback = myCallbackfunction;
+                        # ajaxer.failCallback = yourCallbackfunction;
     
     ajaxer.successCallback # optional user defined callback for successful requests
-                           # ajaxer.failCallback = myCallbackfunction;
+                           # ajaxer.failCallback = yourCallbackfunction;
     
 ## "Private" methods:
 
